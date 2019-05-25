@@ -1,0 +1,27 @@
+nav {
+    position: fixed;
+    width: 500px;
+    height: 100%;
+    /* background: #FFF; */
+    top: 0;
+    right: 0;
+    right: -510px;
+    transition-duration: 150ms;
+
+
+}
+
+    nav[aberto]{
+        right: 0;
+    }
+
+nav > div.fundo{
+    position: absolute;
+    width: 300%;
+    height: 300%;
+    top: -162px;
+    left: 240px;
+    background-color: #80cbc4;
+    transform: rotate(-10deg);
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.5);
+}
